@@ -5,6 +5,7 @@ parent: default
 
 matches:
   - trigger: ":usd"
+    trim: true
     replace: "{{output}}"
     vars:
     - name: output
@@ -12,4 +13,4 @@ matches:
       params:
         args:
           - python
-          - "%CONFIG%/scripts/usd.py"
+          - "%PACKAGES%/espanso-usd/usd.py"

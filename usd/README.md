@@ -1,5 +1,5 @@
 ---
-package_name: "espanso-usd"
+package_name: "usd"
 package_title: "USD"
 package_desc: "Imprime una tabla con las cotizaciones del dolar"
 package_version: "0.1.0"

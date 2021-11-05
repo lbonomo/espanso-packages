@@ -1,6 +1,6 @@
 # Simple package
 
-name: espanso-usd
+name: usd
 parent: default
 
 matches:

@@ -15,4 +15,4 @@ for index, emoji in enumerate(('🟢', '🔵')):
 
     print(f"| {emoji} | {compra} | {venta} |")
 
-print("\n")
+print()

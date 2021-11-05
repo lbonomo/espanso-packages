@@ -10,3 +10,11 @@ Imprime una tabla con la cotizacion del dolar
 Es necesario tener instalado el paquete de `requests` 
 
 `pip install requests`
+
+## Output
+```
+| 💵 |  Compra  |   Venta  |
+|----|----------|----------|
+| 🟢 |     99,4 |    105,4 |
+| 🔵 |    196,0 |    199,0 |
+```

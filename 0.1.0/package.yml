@@ -1,0 +1,15 @@
+# Simple package
+
+name: espanso-usd
+parent: default
+
+matches:
+  - trigger: ":usd"
+    replace: "{{output}}"
+    vars:
+    - name: output
+      type: script
+      params:
+        args:
+          - python
+          - "%CONFIG%/scripts/usd.py"

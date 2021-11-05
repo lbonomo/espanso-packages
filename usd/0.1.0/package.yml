@@ -13,4 +13,4 @@ matches:
       params:
         args:
           - python
-          - "%PACKAGES%/espanso-usd/usd.py"
+          - "%PACKAGES%/usd/usd.py"

@@ -13,6 +13,6 @@ for index, emoji in enumerate(('🟢', '🔵')):
     compra = value.format(json[index]['casa']['compra'][:-1])
     venta = value.format(json[index]['casa']['venta'][:-1])
 
-    print(f"| {emoji} | {compra} | {venta} |\n")
+    print(f"| {emoji} | {compra} | {venta} |")
 
-print()
+print("\n")

@@ -2,7 +2,7 @@
 package_name: "usd"
 package_title: "USD"
 package_desc: "Imprime una tabla con las cotizaciones del dolar"
-package_version: "0.2.1"
+package_version: "0.2.2"
 package_author: "Lucas Bonomo"
 package_repo: "https://github.com/lbonomo/espanso-packages"
 ---

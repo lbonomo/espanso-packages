@@ -1,0 +1,29 @@
+# Simple package
+
+name: usd
+parent: default
+
+matches:
+  - trigger: ":usd"
+    trim: true
+    replace: "{{output}}"
+    vars:
+    - name: output
+      type: script
+      params:
+        args:
+          - python3
+          - "%PACKAGES%/usd/usd.py"
+
+
+matches:
+  - trigger: "#blue"
+    trim: true
+    replace: "{{output}}"
+    vars:
+    - name: output
+      type: script
+      params:
+        args:
+          - python3
+          - "%PACKAGES%/usd/usd.py --option=blue-average"

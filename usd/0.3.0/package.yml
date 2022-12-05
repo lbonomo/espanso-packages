@@ -15,15 +15,15 @@ matches:
           - python3
           - "%PACKAGES%/usd/usd.py"
 
-
-matches:
   - trigger: "#blue"
     trim: true
-    replace: "{{output}}"
+    replace: "{{blue}}"
     vars:
-    - name: output
+    - name: blue
       type: script
       params:
         args:
           - python3
-          - "%PACKAGES%/usd/usd.py --option=blue-average"
+          - "%PACKAGES%/usd/usd.py"
+          - "--option=blue-average"
+

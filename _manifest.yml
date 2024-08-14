@@ -1,0 +1,6 @@
+name: "usd-arg"
+title: "USD ARG"
+description: Cotizacion del dolar.
+version: 0.3.0
+author: Lucas Bonomo
+tags: ["usd"]
